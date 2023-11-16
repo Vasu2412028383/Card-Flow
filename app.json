@@ -1,0 +1,11 @@
+{
+	"name": "CC-Bot",
+	"description": "A telegram bot to assist create Fake cc",
+	"repository": "https://github.com/riz4d/Card-Flow",
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}

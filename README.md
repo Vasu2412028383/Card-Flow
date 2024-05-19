@@ -70,9 +70,9 @@ python3 run.py
 
 ```LICENSE
 Card Flow is intended for educational purposes and should be used responsibly.
- Generating or using fake credit card numbers for fraudulent activities is illegal.
+Generating or using fake credit card numbers for fraudulent activities is illegal.
 ```
 
 ### License
 
-This project is licensed under [LICENSE](LICENSE) file for details.
+This project is licensed under CC0-1.0 license, [CC0-1.0](LICENSE) file for details.

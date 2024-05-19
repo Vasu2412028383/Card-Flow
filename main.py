@@ -18,6 +18,16 @@ app = Client(bot_name,
 @app.on_message(filters.command("start"))
 def start_msg(client,message):
     print(message.text)
+    await message.reply(f"Hello {message.from_user.first_name}!\n\n"
+        "Welcome to **Card Flow** 🪪\n\n"
+        "Here are some commands to get you started:\n\n"
+        "🔹 **Generate Random Credit Cards**:\n"
+        "   `/randomcc [count]` - Generate a specified number of random, valid credit card numbers. Defaults to 1 if no count is provided.\n\n"
+        "🔹 **Check Credit Card Details**:\n"
+        "   `/checkcc <credit_card_number>` - Retrieve detailed information about a specified credit card number.\n\n"
+        "🔹 **Generate Custom BIN Credit Cards**:\n"
+        "   `/custombin <BIN> [count]` - Generate valid credit card numbers using a specified BIN."
+    )
 @app.on_message(filters.command("randomcc"))   
 async def cc_gen(client,message):
     bin_string = str(message.text).replace("/randomcc","")

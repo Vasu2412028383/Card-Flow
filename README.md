@@ -22,6 +22,18 @@ It can generate random credit card numbers, validate them, and provide informati
     ```
 ### Usage
 
+Install Dependencies with pip
+```
+pip install -r requirements.txt
+```
+
+run the script with
+
+```
+python3 run.py
+```
+### Commands
+
   - /randomcc [count] : <br><br>
     generate a specified number of random, valid credit card numbers. If no count is provided, the bot defaults to generating one credit card number.
     The generated cards include the card number, expiration date, and CVV
@@ -37,30 +49,7 @@ It can generate random credit card numbers, validate them, and provide informati
     If no count is provided, the bot defaults to generating one credit card number.
     This is useful for testing and educational purposes where a specific BIN is required.
       - Usage Example:<br> /custombin 123456 or /custombin 123456 3
-      - Output:<br> A list of generated credit card details formatted as<br> <code>{card_number}|{expiry_month}|{expiry_year}</code>.<br> Additionally, detailed information about one of the generated cards is provided, including card type, card brand, currency, country (with emoji), and bank name.<br><br>
-Install Dependencies with pip
-```
-pip install -r requirements.txt
-```
-
-run the script with
-
-```
-python3 run.py
-```
-### Commands
-
-  - /start: Verify that the bot is operational.<br>
-        Example: /start
-
-  - /randomcc [count]: Generate a specified number of random, valid credit card numbers. Defaults to 1 if no count is provided.<br>
-        Example: /randomcc or /randomcc 5
-
-  - /checkcc <credit_card_number>: Retrieve detailed information about a specified credit card number.<br>
-        Example: /checkcc 1234567890123456
-
-  - /custombin <BIN> [count]: Generate valid credit card numbers using a specified BIN (Bank Identification Number). Defaults to 1 if no count is provided.<br>
-        Example: /custombin 123456 or /custombin 123456 3
+      - Output:<br> A list of generated credit card details formatted as<br> <code>{card_number}|{expiry_month}|{expiry_year}</code>.<br> Additionally, detailed information about one of the generated cards is provided,           including card type, card brand, currency, country (with emoji), and bank name.<br><br>
 
 ### Note
 

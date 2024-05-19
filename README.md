@@ -51,9 +51,18 @@ python3 run.py
       - Usage Example:<br> /custombin 123456 or /custombin 123456 3
       - Output:<br> A list of generated credit card details formatted as<br> <code>{card_number}|{expiry_month}|{expiry_year}</code>.<br> Additionally, detailed information about one of the generated cards is provided,           including card type, card brand, currency, country (with emoji), and bank name.<br><br>
 
+
+## Issues 
+
+[Submit Issues](https://github.com/riz4d/Card-Flow/issues)
+
 ### Note
 
 ```LICENSE
 Card Flow is intended for educational purposes and should be used responsibly.
  Generating or using fake credit card numbers for fraudulent activities is illegal.
 ```
+
+### License
+
+This project is licensed under [LICENSE](LICENSE) file for details.
